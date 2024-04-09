@@ -1,0 +1,37 @@
+/* Style for the entire AboutPage component */
+.about-containerrr {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif ;
+    background-color: rgb(214, 57, 13);
+    color: white;
+  }
+  
+  /* Style for the heading */
+  .hh{
+    color: white;
+  font-size: 5em;
+  margin-bottom: 20px;
+  }
+  
+  /* Style for paragraphs */
+  .pp {
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  
+  /* Style for links */
+  .aaa{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .aaa:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,59 @@
+/* shop1.css */
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(197, 201, 185);
+    width: 450px;
+    height: 550px;
+  
+   
+ }
+  .product-image {
+    width:250px; /* Adjust the width percentage as needed */
+     height: 300px;
+    object-fit: cover;/* Adjust the maximum height as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin-right: 600%;
+   margin: 0 auto;
+   /* margin auto imp to bring the content middle */
+  }
+  .product-details {
+    margin-top: 16px;
+  }
+  .product-card h3 {
+    color: #333333;
+  }
+  
+  .product-card p {
+    color: #666;
+  }
+  
+  .product-card p:last-child {
+    font-weight: bold;
+    color: #007bff;
+  }
+  /* productList.css */
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin: 20px; /* Adjust the margin as needed */
+  }
+  
+  /* Additional styles for the product-list container */
+  .addbtn{
+    align-items: center;
+    padding: 10px 20px;
+    display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin: 0 auto;
+  }

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+@font-face {
+  font-family: "CustomFont";
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover{
+    background-color: rgb(186, 14, 14);
+    width: 30em;
+    height: 15cm;
+    position: relative;
+    border-radius: 1em;
+    color: white;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  padding: 0dvh;
+  justify-content: space-around;
+  vertical-align:middle;
+  margin-left: auto;
+  margin-right: auto;
+  
+    
+}
+.alt-login{
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+.alt-login div{
+    width: 45%;
+    height: 90%;
+    border-radius: 0.25em;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    cursor: pointer;
+}
+input{
+    border: none;
+    height: 4em;
+    width: 60%;
+    border-radius: 5em;
+    text-align: center;
+    padding: 2em;
+}
+input:focus{
+outline-color:rgb(173, 26, 26);
+
+}
+.login-btn{
+    width: 60%;
+    height: 2em;
+    margin-bottom: -3px;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+    color: black;
+}
+.login-btn:hover{
+    transform: scale(1.25);
+}
+.hide{
+   position: absolute;
+   transform: scale(0);
+}
+.login-popup{
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: black;
+    color: aliceblue;
+    bottom: 0;
+    transform: scale(1);
+}

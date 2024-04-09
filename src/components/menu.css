@@ -1,0 +1,87 @@
+.hai{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 10px;
+    background: #e24242;
+    box-shadow: 0px 2px 5px rgba(240, 161, 161, 0.1);
+    width: 600px;
+    height: 400px;
+    
+  }
+  .card-grid1{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3 rows with equal height */
+    gap: 10px; /* Spacing between cards */
+    justify-content: center; /* Center cards horizontally */
+    background-color: #e24242;
+    width: 350px;
+    height: 400px;
+    background-image: url(https://5.imimg.com/data5/ECOM/Default/2022/4/KE/DR/MO/49405442/8d01e012-9b17-4e91-9140-66f1095dc353-500x500.jpg);
+    background-size: cover; /* Set the background image size to cover the container */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    border-image-width: auto
+    
+  }
+  .card-grid2{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3 rows with equal height */
+    gap: 10px; /* Spacing between cards */
+    justify-content: center; /* Center cards horizontally */
+    background-color: #e24242;
+    width: 350px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: -400px;
+    background-image: url(https://static.toiimg.com/photo/105480404.cms);
+    background-size: cover; /* Set the background image size to cover the container */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    border-image-width: auto;
+  }
+  .card-grid3{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3 rows with equal height */
+    gap: 10px; /* Spacing between cards */
+    justify-content: center; /* Center cards horizontally */
+    background-color: #e24242;
+    width: 350px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: -400px;
+    background-image: url(https://i.ebayimg.com/images/g/OHEAAOSwsrVisPH4/s-l1200.webp);
+    background-size: cover; /* Set the background image size to cover the container */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    border-image-width: auto;
+    
+  }
+  .card-grid4{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3 rows with equal height */
+    gap: 10px; /* Spacing between cards */
+    justify-content: center; /* Center cards horizontally */
+    background-color: #e24242;
+    width: 350px;
+    height: 400px;
+    margin-left: 1200px;
+    margin-top: -400px;
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fb5351b2-084c-4ed1-bec9-9f2347128a50/revolution-7-younger-shoes-msfDML.png);
+    background-size: cover; /* Set the background image size to cover the container */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  border-image-width: auto;
+    
+  }
+  .button{
+    margin-top: 300px;
+}
+.button1{
+    margin-top: 320px;
+}
+.button2{
+    margin-top: 320px;
+}
+.button3{
+    margin-top: 320px;
+}
+.text{
+    font-weight:1000;
+}
