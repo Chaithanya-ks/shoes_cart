@@ -12,7 +12,7 @@ const AboutPage = () => {
         Our mission is to Make you feel comfortable.
       </p>
       <p>
-        Contact us at <a href="joycesmithapereira@gmail.com">joycesmithapereira@gmail.com</a> or call us at <a href="+917349756316">7349756316</a>.
+        Contact us at <a href="chaithanyakedilaya@gmail.com">chaithanyakedilaya@gmail.com</a> or call us at <a href="+918050244505">8050244505</a>.
       </p>
     </div>
   );

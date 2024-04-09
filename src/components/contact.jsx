@@ -23,8 +23,8 @@ const ContactPage = () => {
       {/* Contact Details */}
       <div className="contact-details">
         <h2>Our Contact Information</h2>
-        <p>Email: <a href="joycesmithapereira001@gmail.com">joycesmithapereira001@gmail.com</a></p>
-        <p>Phone: <a href="tel:+917349756316">7349756316</a></p>
+        <p>Email: <a href="chaithanyakedilaya@gmail.com">chaithanyakedilaya@gmail.com</a></p>
+        <p>Phone: <a href="tel:+918050244505">8050244505</a></p>
       </div>
 
       {/* Map */}
